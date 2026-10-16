@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Buttons and Forms Activity</title>
+</head>
+<body>
+
+    <h1>Student Registration Form</h1>
+
+    <form>
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name"
+               placeholder="Enter your name" required>
+        <br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email"
+               placeholder="Enter your email" required>
+        <br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <br><br>
+
+        <label>Hobbies:</label><br>
+        <input type="checkbox" name="hobby" value="Gaming"> Gaming
+        <input type="checkbox" name="hobby" value="Reading"> Reading
+        <input type="checkbox" name="hobby" value="Sports"> Sports
+        <br><br>
+
+        <label for="course">Choose your course:</label><br>
+        <select id="course" name="course">
+            <option value="BSIT">BSIT</option>
+            <option value="HM">HM</option>
+            <option value="EDUCATION">EDUCATION</option>
+            <option value="IE">IE</option>
+        </select>
+        <br><br>
+
+        <label for="message">Comments:</label><br>
+        <textarea id="message" name="message"
+                  rows="4" cols="30"
+                  placeholder="Write your comments here"></textarea>
+        <br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+
+</body>
+</html>
